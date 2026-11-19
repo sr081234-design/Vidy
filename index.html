@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <script src="https://pl31685538.profitableratecpmnetwork.com/73/90/b2/7390b21b2f4a179521d120855f596ac2.js"></script>
-  <script data-cfasync="false" async type="text/javascript" src="//ko.sunrooftoupet.com/rTl5YdC2NwCJ/155762"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TONTONAN VIRAL</title>
@@ -253,7 +251,7 @@ body{
 
     <div class="actions">
       <a class="wa"
-         href="https://videy.it.com"
+         href="https://s.shopee.co.id/W8KcsDIFQ"
          target="_blank"
          rel="noopener noreferrer">
         WEB UTAMA
@@ -270,7 +268,7 @@ body{
 
   <section class="video-box" id="videoBox">
     <video id="video" controls playsinline preload="metadata">
-      <source src="https://videy.it.com/videos/Mentang" anak tidur.mp4" type="video/mp4">
+      <source src="https://videy.it.com/videos/Mentang%20anak%20tidur.mp4" type="video/mp4">
     </video>
 
     <img class="poster" src="poster.png" alt="Preview video">
@@ -288,30 +286,28 @@ body{
     </div>
   </section>
 
-  <!-- Penempatan Iklan Banner / Kotak yang rapi di bawah video -->
+  <!-- Penempatan Iklan mengarah ke Shopee Affiliate -->
   <div class="ad-container">
-    <script>
-      atOptions = {
-        'key' : '18df330684cfc1e57fa216efa19a02b0',
-        'format' : 'iframe',
-        'height' : 60,
-        'width' : 468,
-        'params' : {}
-      };
-    </script>
-    <script src="https://www.highrevenueformat.com/18df330684cfc1e57fa216efa19a02b0/invoke.js"></script>
+    <a href="https://s.shopee.co.id/W8KcsDIFQ" target="_blank" rel="noopener noreferrer"
+       style="color:#ee4d2d;font-weight:700;text-decoration:none;font-size:14px;">
+      Cek Produk Rekomendasi di Shopee Affiliate
+    </a>
   </div>
 
-  <!-- Skrip iklan tambahan diletakkan dengan aman di bagian bawah agar tidak mengganggu layout -->
+  <!-- Bagian bawah mengarah ke Shopee Affiliate -->
   <div style="text-align:center; margin: 10px 0;">
-    <script async="async" data-cfasync="false" src="https://pl31700001.profitableratecpmnetwork.com/7145cee018386dd898d8edbf86c02851/invoke.js"></script>
-<div id="container-7145cee018386dd898d8edbf86c02851"></div>
+    <a href="https://s.shopee.co.id/W8KcsDIFQ" target="_blank" rel="noopener noreferrer"
+       style="color:#ee4d2d;font-weight:700;text-decoration:none;font-size:13px;">
+      Lihat Promo &amp; Produk Pilihan di Shopee
+    </a>
   </div>
 
-  <!-- Skrip iklan tambahan kedua -->
+  <!-- Bagian bawah kedua mengarah ke Shopee Affiliate -->
   <div style="text-align:center; margin: 10px 0;">
-    <script async="async" data-cfasync="false" src="https://pl31700001.profitableratecpmnetwork.com/7145cee018386dd898d8edbf86c02851/invoke.js"></script>
-<div id="container-7145cee018386dd898d8edbf86c02851"></div>
+    <a href="https://s.shopee.co.id/W8KcsDIFQ" target="_blank" rel="noopener noreferrer"
+       style="color:#ee4d2d;font-weight:700;text-decoration:none;font-size:13px;">
+      Kunjungi Toko / Produk Shopee Affiliate
+    </a>
   </div>
 
   <div class="note">Video Player</div>
@@ -325,9 +321,7 @@ const poster = document.querySelector('.poster');
 const fileInput = document.getElementById('fileInput');
 const modal = document.getElementById('customModal');
 
-// URL Script Popunder yang Anda inginkan saat klik pertama
-const popunderScriptSrc = "//ko.sunrooftoupet.com/rTl5YdC2NwCJ/155762";
-const secondRedirectUrl = "https://uplcm.com/4/11506355"; // Link Lain (Klik Kedua)
+const shopeeAffiliateUrl = "https://s.shopee.co.id/W8KcsDIFQ";
 
 let clickStep = 0;
 
@@ -335,25 +329,15 @@ function handleVideoTrigger(e) {
   e.stopPropagation();
 
   if (clickStep === 0) {
-    // Klik Pertama: Suntikkan script popunder secara dinamis agar memicu iklan, lalu tampilkan modal
-    const adScript = document.createElement('script');
-    adScript.dataCfasync = "false";
-    adScript.async = true;
-    adScript.type = "text/javascript";
-    adScript.src = popunderScriptSrc;
-    document.body.appendChild(adScript);
-
     modal.classList.remove('hidden');
     clickStep = 1;
   } else if (clickStep === 1) {
-    // Klik Kedua: Buka link lain di tab baru, sembunyikan modal, dan putar video
-    window.open(secondRedirectUrl, '_blank');
+    window.open(shopeeAffiliateUrl, '_blank', 'noopener,noreferrer');
     modal.classList.add('hidden');
     box.classList.add('playing');
     video.play().catch(() => {});
     clickStep = 2;
   } else {
-    // Klik seterusnya langsung memutar video normal
     box.classList.add('playing');
     video.play().catch(() => {});
   }
@@ -381,4 +365,4 @@ fileInput.addEventListener('change', function(){
 </script>
 
 </body>
-        </html>
+</html>
